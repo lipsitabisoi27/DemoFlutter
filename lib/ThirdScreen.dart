@@ -38,8 +38,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
             ),
             InkWell(
               onTap: (){
-                //Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondScreen()));
-                Navigator.pushNamed(context, "/home");
+                Navigator.pushNamed(context, "/");
               },
               child: Text(
                 "Sign Up Home Here",
